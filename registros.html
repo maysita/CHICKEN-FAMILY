@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Chicken Family</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #f05454;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #ff9f00;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-size: 18px;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #f05454;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #f05454;
+            text-decoration: none;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .form-container h2 {
+            color: #f05454;
+            text-align: center;
+        }
+
+        .form-container label {
+            font-size: 18px;
+            color: #333;
+            display: block;
+            margin: 15px 0 5px;
+        }
+
+        .form-container input, .form-container select, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            width: 100%;
+            padding: 15px;
+            background-color: #f05454;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #ff9f00;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Registro - Chicken Family</h1>
+        <p>Únete a nuestra familia y empieza a disfrutar de las mejores alitas.</p>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <a href="chicken family.html">Inicio</a>
+        <a href="pedidos.html">Realizar Pedido</a>
+        <a href="registros.html">Registro</a>
+        <a href="menu.html">Menú</a>
+        <a href="conocenos.html">Conócenos</a>
+    </nav>
+
+    <!-- Formulario de Registro -->
+    <div class="form-container">
+        <h2>Formulario de Registro</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono de Contacto:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="direccion">Dirección de Envío:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+
+            <label for="confirmar-contraseña">Confirmar Contraseña:</label>
+            <input type="password" id="confirmar-contraseña" name="confirmar-contraseña" required>
+
+            <button type="submit">Registrarse</button>
+        </form>
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Chicken Family | <a href="#">Términos y Condiciones</a> | <a href="#">Política de Privacidad</a></p>
+    </footer>
+
+</body>
+</html>
